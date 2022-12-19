@@ -1778,6 +1778,14 @@ input, select, textarea {
 	}
 
 /* Image */
+	img {
+		transition: all 4s;
+	}	
+
+	img:hover {
+		transform: scale(1.1);
+		
+	}
 
 	.image {
 		position: relative;
