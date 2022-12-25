@@ -1953,17 +1953,48 @@ input, select, textarea {
 				}
 
 /* Form */
+	* {
+		box-sizing: border-box;
+	}
 
+	form {
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+
+	.row-form:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.column-form-1 {
+		float: left;
+		width: 50%;
+		padding: 15px;	
+	}
+	.column-form-2 {
+		float: left;
+		width: 50%;
+		padding: 15px;	
+	}
+	.form-indicator {
+		text-align: center;
+		font-size: 0.80em;
+	}
 	form label {
 		display: block;
 		font-weight: 400;
 		color: #483949;
-		margin: 0 0 1em 0;
+		margin: 0 0 2em 0;
+		padding: 2em;
 	}
 
 	form input[type="text"],
 	form input[type="email"],
 	form input[type="password"],
+	form input[type="number"],
+	form input[type="Quantity"],
+	form input[type="tel"],
 	form select,
 	form textarea {
 		-webkit-appearance: none;
@@ -1972,7 +2003,7 @@ input, select, textarea {
 		background: #fafafa;
 		width: 100%;
 		border-radius: 0.5em;
-		border: solid 1px #E5E5E5;
+		border: solid 2px #E5E5E5;
 		padding: 1em;
 		-moz-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
@@ -1993,7 +2024,7 @@ input, select, textarea {
 	form input[type="email"],
 	form input[type="password"],
 	form select {
-		line-height: 1em;
+		line-height: 1.75em;
 	}
 
 	form textarea {
