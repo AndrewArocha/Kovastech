@@ -26,12 +26,6 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;
 	scroll-behavior: smooth;}
 
-#youtube {
-	text-align="center"
-	justify-content: center;
-	align-contect: center;
-}
-
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -193,6 +187,10 @@ input, select, textarea {
 
 	p {
 		text-align: justify;
+	}
+
+	#subtitle {
+		color: #483949;
 	}
 	
 	#youtube {
