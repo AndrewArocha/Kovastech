@@ -194,6 +194,10 @@ input, select, textarea {
 	p {
 		text-align: justify;
 	}
+	
+	#youtube {
+		text-align: center;
+	}
 
 	br.clear {
 		clear: both;
