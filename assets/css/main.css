@@ -273,10 +273,16 @@ input, select, textarea {
 			}
 			
 			iframe {
-				widht: 100%
+				widht: 100%;
 			}
 
 		}
+
+		@media screen and (max-width: 900px)
+			
+			iframe {
+				width: 100%;
+			}
 
 		@media screen and (max-width: 840px) {
 
@@ -284,7 +290,7 @@ input, select, textarea {
 				width: 100%;
 			}
 			iframe {
-				widht: 100%
+				widht: 100%;
 			}
 
 		}
@@ -295,7 +301,7 @@ input, select, textarea {
 				width: 100%;
 			}
 			iframe {
-				widht: 100%
+				widht: 100%;
 			}
 
 		}
