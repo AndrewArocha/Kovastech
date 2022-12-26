@@ -2880,6 +2880,12 @@ input, select, textarea {
 			.image.centered {
 				margin: 0 0 1em 0;
 			}
+		
+		/* Iframe */
+		
+			iframe {
+				width: 100%
+			}
 
 		/* Actions */
 
