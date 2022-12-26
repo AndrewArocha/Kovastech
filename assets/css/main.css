@@ -71,6 +71,7 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+	width: 100%;
 }
 
 /* Basic */
