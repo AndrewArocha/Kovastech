@@ -86,7 +86,7 @@ input, select, textarea {
 
 	body {
 		background: #1a1a1a;
-		color: #5b5b5b;
+		color: #fff;
 		font-size: 15pt;
 		line-height: 1.85em;
 		font-family: 'Source Sans Pro', sans-serif;
@@ -2241,7 +2241,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		background: linear-gradient(45deg, purple, blue, cadetblue, transparent);
+		background: linear-gradient(45deg, #1a1a1a, transparent);
 		margin: 0 0 2em 0;
 		padding: 6em 0 6em 0;
 	}
@@ -2249,6 +2249,11 @@ input, select, textarea {
 		.wrapper.style2 {
 			padding-top: 0;
 		}
+	.indexwrapper {
+		background: linear-gradient(45deg, purple, blue, cadetblue, transparent);
+		margin: 0 0 2em 0;
+		padding: 6em 0 6em 0;
+	}
 
 /* Header */
 
