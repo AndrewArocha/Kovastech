@@ -85,7 +85,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f0f4f4;
+		background: #1a1a1a;
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
@@ -113,7 +113,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #483949;
+		color: #fff;
 		line-height: 1.25em;
 	}
 
@@ -188,6 +188,7 @@ input, select, textarea {
 
 	p {
 		text-align: justify;
+		color: #fff
 	}
 
 	#subtitle {
@@ -2240,7 +2241,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		background: #fff;
+		background: linear-gradient(45deg, purple, blue, cadetblue, transparent);
 		margin: 0 0 2em 0;
 		padding: 6em 0 6em 0;
 	}
@@ -2488,7 +2489,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #fff;
+		background: linear-gradient(45deg, purple, blue, cadetblue, transparent);
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
 		margin-bottom: 0;
@@ -2540,7 +2541,7 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		padding: 6em 0 6em 0;
-		background: #2b252c;
+		background: #1a1a1a;
 		color: #fff;
 	}
 
@@ -2585,6 +2586,7 @@ input, select, textarea {
 /* Carousel */
 
 	.carousel {
+		background: #1a1a1a;
 		position: relative;
 		overflow: hidden;
 		padding: 2em 0 2em 0;
@@ -2670,7 +2672,7 @@ input, select, textarea {
 		.carousel article {
 			display: inline-block;
 			width: 18em;
-			background: #fff;
+			background: #cadetblue;
 			text-align: center;
 			padding: 0 1em 3em 1em;
 			margin: 0 2em 0 0;
