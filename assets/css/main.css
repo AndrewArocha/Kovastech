@@ -1812,11 +1812,11 @@ input, select, textarea {
 
 /* Image */
 	img {
-		transition: all 4s;
+		transition: all 2.5s;
 	}	
 
 	img:hover {
-		transform: scale(1.1);
+		transform: scale(1.05);
 		
 	}
 
@@ -2259,7 +2259,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/R.jpg");
+		background: linear-gradient(lightgray, white, lightgray);
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
