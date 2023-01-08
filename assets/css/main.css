@@ -2340,7 +2340,7 @@ input, select, textarea {
 
 		body.homepage #header:after {
 			content: '';
-			background: url("../../images/cover.jpg");
+			background: url("../../images/Transition Cover.png");
 			background-size: cover;
 			display: block;
 			position: absolute;
